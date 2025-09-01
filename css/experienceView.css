@@ -1,0 +1,168 @@
+.work-experience {
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.experience-card {
+    background: #0D0D0D;
+    border: 1px solid #1A1A1A;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(46, 196, 182, 0.3);
+}
+
+.experience-card h3 {
+    margin: 0 0 0.2rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.experience-card span {
+    font-size: 0.85rem;
+    color: #B3B3B3;
+}
+
+.highlights {
+    margin-top: 0.8rem;
+    padding-left: 1.2rem;
+}
+
+.highlights li {
+    margin-bottom: 0.4rem;
+    color: #CCCCCC;
+}
+
+.imdb-projects {
+    margin-top: 1.5rem;
+}
+
+.imdb-projects h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.imdb-card {
+    display: inline-block;
+    width: 180px;
+    height: 350px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imdb-card a {
+    text-decoration: none;
+    color: #F5F5F5;
+    display: block;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.imdb-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    border-radius: 6px;
+    margin-bottom: 0.4rem;
+}
+
+.imdb-card span {
+    display: block;
+    font-size: 0.85rem;
+    color: #B3B3B3;
+}
+
+.imdb-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(46, 196, 182, 0.4);
+}
+
+.imdb-card:hover img {
+    transform: scale(1.05);
+}
+
+.imdb-card img[src*="lucia.jpg"] {
+    object-position: center 95%;
+}
+
+.imdb-card img[src*="o-atentado.jpg"] {
+    object-position: center 5%;
+}
+
+.education {
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.edu-card {
+    background: #0D0D0D;
+    border: 1px solid #1A1A1A;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edu-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(46, 196, 182, 0.3);
+}
+
+.edu-card h3 {
+    margin: 0 0 0.2rem 0;
+    font-size: 1.1rem;
+}
+
+.edu-card span {
+    font-size: 0.85rem;
+    color: #B3B3B3;
+}
+
+.skills {
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.skill-category {
+    margin-bottom: 1.5rem;
+}
+
+.skill-category h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.skill-badge {
+    display: inline-block;
+    background: #1A1A1A;
+    border: 1px solid #2EC4B6;
+    border-radius: 6px;
+    padding: 0.4rem 0.8rem;
+    margin: 0 0.5rem 0.5rem 0;
+    font-size: 0.85rem;
+    color: #F5F5F5;
+    cursor: default;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.skill-badge:hover {
+    transform: translateY(-2px);
+    background: #2EC4B6;
+    color: #0D0D0D;
+}

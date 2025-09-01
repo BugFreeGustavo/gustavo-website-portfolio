@@ -50,7 +50,8 @@ body {
     margin-top: 2rem;
 }
 
-.nav a {
+.nav a,
+.nav button {
     text-decoration: none;
     color: #B3B3B3;
     font-weight: 500;
@@ -58,14 +59,20 @@ body {
     padding: 0.5rem 0.8rem;
     border-radius: 6px;
     transition: background 0.2s, color 0.2s;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav button:hover {
     background: rgba(255, 255, 255, 0.05);
     color: #F5F5F5;
 }
 
-.nav a.active {
+.nav a.active,
+.nav button.active {
     background: #2EC4B6;
     color: #0D0D0D;
     font-weight: 600;
@@ -100,15 +107,19 @@ main h2 {
     gap: 2rem;
 }
 
-.footer-content a {
+.footer-btn {
+    background: none;
+    border: none;
     color: #B3B3B3;
-    text-decoration: none;
     font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
     transition: color 0.2s, transform 0.2s;
 }
 
-.footer-content a:hover,
-.footer-content a:focus {
+.footer-btn:hover,
+.footer-btn:focus {
     color: #FF9F1C;
     transform: translateY(-2px);
 }
