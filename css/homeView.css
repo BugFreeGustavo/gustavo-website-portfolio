@@ -1,0 +1,93 @@
+/* ===== Home View Container ===== */
+.home {
+    display: flex;
+    flex-direction: column;
+    /* stack image + text vertically */
+    align-items: center;
+    /* center horizontally */
+    justify-content: center;
+    /* center vertically */
+    gap: 1.5rem;
+    min-height: 100%;
+    /* fill main content area */
+    text-align: center;
+    /* center text and CTA */
+    padding: 2rem;
+}
+
+/* ===== Profile Picture ===== */
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 40% 10%;
+    /* fine-tune image positioning */
+    border: 3px solid var(--color-accent, #2EC4B6);
+}
+
+/* ===== Intro Text ===== */
+.intro-text {
+    max-width: 600px;
+}
+
+.intro-text h1 {
+    font-family: var(--font-primary, "Montserrat"), sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.intro-text p {
+    margin: 0.5rem 0;
+    color: #CCCCCC;
+}
+
+.intro-text .highlight {
+    color: var(--color-accent, #2EC4B6);
+    font-weight: 600;
+}
+
+/* ===== CTA Button ===== */
+.cta-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--color-accent, #2EC4B6);
+    color: #0D0D0D;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.cta-btn:hover {
+    background-color: #25a79c;
+    transform: translateY(-2px);
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+    .home {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .profile-pic {
+        width: 140px;
+        height: 140px;
+    }
+
+    .intro-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .intro-text p {
+        font-size: 0.95rem;
+    }
+
+    .cta-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.95rem;
+    }
+}
