@@ -1,5 +1,5 @@
 import contactView from '../view/contactView.js';
 
-export function init() {
+export function init(g) {
     contactView.render();
 }
