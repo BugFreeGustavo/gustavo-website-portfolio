@@ -1,6 +1,6 @@
 function render(service) {
-    const container = document.getElementById("app");
-    container.innerHTML = `
+  const container = document.getElementById("app");
+  container.innerHTML = `
     <section class="about-section">
       <div class="about-text">
         <h2>Outside of Work</h2>
@@ -11,7 +11,7 @@ function render(service) {
         </p>
       </div>
       <div class="about-media">
-        <img src="/assets/surfing.jpg" alt="Gustavo surfing">
+        <img src="/assets/aboutMe/surfing.jpg" alt="Gustavo surfing">
       </div>
     </section>
 
@@ -26,7 +26,7 @@ function render(service) {
         </p>
       </div>
       <div class="about-media">
-        <img src="/assets/studio.jpg" alt="In the studio mixing audio">
+        <img src="/assets/aboutMe/studio.jpg" alt="In the studio mixing audio">
       </div>
     </section>
 
@@ -43,8 +43,8 @@ function render(service) {
         </div>
       </div>
       <div class="about-media">
-        <img src="/assets/barbante-madeira.jpg" alt="Barbante live at NOS Summer Opening 2018">
-        <img src="/assets/patamar-videoclip.jpg" alt="Playing guitar">
+        <img src="/assets/aboutMe/barbante-madeira.jpg" alt="Barbante live at NOS Summer Opening 2018">
+        <img src="/assets/aboutMe/patamar-videoclip.jpg" alt="Playing guitar">
       </div>
     </section>
 
@@ -81,12 +81,12 @@ function render(service) {
         </p>
       </div>
       <div class="about-media">
-        <img src="/assets/skydiving.jpg" alt="Skydiving experience">
+        <img src="/assets/aboutMe/skydiving.jpg" alt="Skydiving experience">
       </div>
     </section>
   `;
 
-    service.animateAboutSections();
+  service.animateAboutSections();
 }
 
 export default { render };
