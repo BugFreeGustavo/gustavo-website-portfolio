@@ -33,7 +33,7 @@ function render() {
             description:
                 "Classic Snake game built in Java using Java.AWT. Features smooth controls, score tracking, and increasing difficulty levels.",
             tech: ["Java", "Java.AWT"],
-            image: "/assets/projects/snake-game.png",
+            image: "/assets/projects/snake-game.gif",
             github: "https://github.com/BugFreeGustavo/snake-game-remake",
             demo: null,
         },
@@ -42,7 +42,7 @@ function render() {
             description:
                 "Retro Brick Breaker game developed in Java with Simple Graphics. Includes high score tracking. Still a work in progress but using a MVC architecture so it can be scalable.",
             tech: ["Java", "SimpleGraphics"],
-            image: "/assets/projects/brick-breaker.png",
+            image: "/assets/projects/brick-breaker.gif",
             github: "https://github.com/BugFreeGustavo/brick-breaker-remake",
             demo: null,
         },
@@ -69,7 +69,7 @@ function render() {
             description:
                 "A simple map editor inpired in Paint built in Java using SimpleGraphics. Allows users to create, edit, and save drawings.",
             tech: ["Java", "SimpleGraphics", "Streams"],
-            image: "/assets/projects/map-editor.png",
+            image: "/assets/projects/map-editor.gif",
             github: "https://github.com/BugFreeGustavo/map-editor",
             demo: null,
         },
